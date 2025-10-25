@@ -1,0 +1,14 @@
+import java.util.*;;
+public class Tpc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Number To print of Sum Natural Number: ");
+        int num = sc.nextInt();
+        int sum = 0;
+        for(int i = 1; i<=num; i++){
+            sum += i;
+        }
+        System.out.println("Sum of Number 1 to "+ num + ": "+sum);
+        sc.close();
+    }
+}
