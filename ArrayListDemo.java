@@ -1,17 +1,24 @@
-import java.util.*;
-class ArrayListDemo{
-	public static void main(String args[]){
-	ArrayList<Object> l = new ArrayList<>();
-	l.add("A");
-   	l.add(10);
-	l.add("A");
-	l.add(null);
-	l.set(1, "nil");
-	System.out.println(l);
-	l.remove(2);
-	System.out.println(l);
-	l.add(2,"m");
-	l.add("");
-	System.out.println(l);
-}
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class ArrayListDemo {
+    public static void main(String[] args) {
+        
+        ArrayList<Integer> l = new ArrayList<>();
+
+        l.add(8);
+        l.add(12);
+        l.add(14);
+        l.add(26);
+        l.add(44);
+
+        l.remove(2);
+        l.add(3, 99);
+
+        ListIterator itr = l.listIterator();
+
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+    }
 }
