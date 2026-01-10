@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution1 {
     public int[] singleNumber(int[] nums) {
         int result = 0;
@@ -15,5 +17,12 @@ class Solution1 {
             }
         }
         return new int[]{a,b};
+    }
+    public static void main(String[] args) {
+        Solution1 s = new Solution1();
+        int[] arr = {2,1,2,1,5,8,9,9,6,6};
+        int[] ans = s.singleNumber(arr);
+        System.out.println(Arrays.toString(ans));
+        
     }
 }
