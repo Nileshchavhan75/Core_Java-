@@ -6,7 +6,7 @@ abstract class Shape{
 }
 class Rect extends Shape{
     void area(){
-        System.out.println("Rectangle Display");
+        System.out.println("Rectangle: ");
     }
 }
 public class Abstaction {
