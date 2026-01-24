@@ -12,7 +12,7 @@ s.pop();
 System.out.println(s);
 s.remove("B");
 System.out.println(s);
-System.out.println(s.search("Z"));
+System.out.println(s.search("g"));
 }
 }
 
