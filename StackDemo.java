@@ -8,7 +8,7 @@ public class StackDemo {
         s.push(14);
         s.push(16);
         s.push(18);
-        s.push(20);
+        s.push(22);
 
         System.out.println(s);
 
