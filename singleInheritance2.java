@@ -26,6 +26,7 @@ class Student extends Person{
 public class singleInheritance2 {
     public static void main(String[] args) {
         Student s1 = new Student("Rutuja", 21, 14);
+        Student s2 = new Student("Nilesh", 23,12);
         s1.StudentDis();
     }
 }
