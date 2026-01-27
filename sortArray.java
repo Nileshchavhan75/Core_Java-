@@ -1,7 +1,7 @@
 public class sortArray {
     public static void main(String [] args){
         int [] arr = {1,3,5,7};
-        int [] arr2 = {2,4,6,8};
+        int [] arr2 = {2,4,6,9};
 
 
         int mergeArray[] = new int[arr.length + arr2.length];
