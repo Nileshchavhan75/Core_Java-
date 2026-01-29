@@ -7,7 +7,7 @@ public class StackEx3 {
         stc.push(20);
         stc.push(30);
         stc.push(40);
-        stc.push(40);
+        stc.push(44);
         stc.push(50);
 
         System.out.println(stc);
