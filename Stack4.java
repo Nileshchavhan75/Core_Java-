@@ -4,7 +4,7 @@ public class Stack4 {
         Stack<Integer> st = new Stack<>();
         st.push(10);
         st.push(22);
-        st.push(30);
+        st.push(44);
         st.push(40);
         st.push(55);
         System.out.println(st);
