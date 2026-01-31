@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Reverse {
     public static void main(String[] args) {
         Scanner n = new Scanner(System.in);
-        System.out.print("Enter the number: ");
+        System.out.print("Enter the num: ");
         int a = n.nextInt();
         int reverse = 0;
 
