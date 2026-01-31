@@ -5,7 +5,7 @@ class num extends Thread
 	  try
 	   {
 		System.out.println("name of current thead:"+Thread.currentThread().getName());
-		System.out.println("1 to 10 numbers:");
+		System.out.println("1 to 10 number:");
 		for(int i=1;i<=10;i++)
 		{
 			System.out.println(i);
