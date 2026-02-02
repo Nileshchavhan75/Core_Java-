@@ -9,6 +9,7 @@ public class ArrayListDemo5 {
         i.add(14);
         i.add(26);
         i.add(44);
+        i.add(55);
 
         ListIterator<Integer> ltr = i.listIterator();
 
