@@ -6,6 +6,7 @@ public class ArrayLisDemo{
         a.add(10);
         a.add(20);
         a.add(30);
+        a.add(55);
 
         System.out.println(a);
     }
