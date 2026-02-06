@@ -16,7 +16,7 @@ class Strings{
         System.out.println("After upperCase: "+ Uppercase);
 
         String Lower = name.toLowerCase();
-        System.out.println("Before LowerCase: "+ name);
+        System.out.println("Before LowerCasee: "+ name);
         System.out.println("After LowerCase: "+ Lower);
 
         String Repla = name.replace( 'e' , 'l');
