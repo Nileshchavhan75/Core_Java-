@@ -8,6 +8,7 @@ public class StreamAPI {
         list.add(10);
         list.add(14);
         list.add(16);
+        list.add(44);
 
         Stream<Integer>stream = list.stream();
         stream.forEach(System.out::println);
