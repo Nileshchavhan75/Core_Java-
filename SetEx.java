@@ -8,6 +8,7 @@ public class SetEx {
        set.add("Graphs");
        set.add("Peach");
        set.add("Orage");
+       set.add("Appes");
 
        set.remove("Graphs");
        System.out.println(set);
