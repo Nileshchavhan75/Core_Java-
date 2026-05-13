@@ -18,7 +18,6 @@ class Solution43 {
                 answer += (minimum - energy);
                 energy = minimum;
             }
-
             energy -= actual;
         }
 
