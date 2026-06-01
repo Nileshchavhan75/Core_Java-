@@ -5,6 +5,8 @@ public class Excep {
             System.out.println(arr[5]);
         }catch(ArrayIndexOutOfBoundsException e){
             System.out.println("it out off index");
+        }finally{
+            System.out.println("program executed");
         }
     }
 }
